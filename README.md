@@ -65,7 +65,7 @@ You can delete a post by specifying the id you want to delete in the url like so
 
 ## POST Request
 
-Add to the list of games by sending a POST request to: https://wyatt-first-nodejs.herokuapp.com/games/add```
+Add to the list of games by sending a POST request to: ```https://wyatt-first-nodejs.herokuapp.com/games/add```
 
 Be sure to also include a body as in the PUT request as:
 ```javascript
