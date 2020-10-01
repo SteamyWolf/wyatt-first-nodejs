@@ -28,7 +28,7 @@ let games =[
     }
 ];
 
-app.get('/games', (req, res) => {
+app.get('/', (req, res) => {
     res.json(games)
 })
 
