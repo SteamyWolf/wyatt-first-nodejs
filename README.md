@@ -61,6 +61,8 @@ Be sure to have your body like so:
 
 You can delete a post by specifying the id you want to delete in the url like so: ```https://wyatt-first-nodejs.herokuapp.com/games/delete/:id```
 
+JSON will be returned to verify a deletion.
+
 
 
 ## POST Request
