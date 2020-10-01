@@ -29,6 +29,7 @@ let games =[
 ];
 
 app.get('/', (req, res) => {
+    console.log(games);
     res.json(games)
 })
 
