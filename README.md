@@ -5,7 +5,7 @@ This API serves a JSON format of 4 different video games. This API can be change
 
 ## GET Request Basic
 
-Use a GET request on: ```https://wyatt-first-nodejs.herokuapp.com/``` to get information on 4 diffeent games:
+Use a GET request on: ```https://wyatt-first-nodejs.herokuapp.com/``` to get information on 4 different games:
 ```javascript
     {
         id:1,
