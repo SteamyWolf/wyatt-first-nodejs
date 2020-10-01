@@ -1,7 +1,7 @@
 import Express from 'express';
 
 const app = Express();
-const port = 3000;
+const port = app.listen(process.env.PORT || 3000);
 app.use(Express.json())
 app.use(Express.urlencoded({extended: true}))
 
@@ -69,5 +69,5 @@ app.post('/games/add', (req, res) => {
 });
 
 app.listen(port, ()=> {
-    console.log('Listening on port 3000');
+    console.log(`Listening on port ${port}`);
 })
